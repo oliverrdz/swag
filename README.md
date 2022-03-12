@@ -8,4 +8,4 @@ To add a menu, add the following comment to a html page in the section where you
 <!-- MENU -->
 ```
 
-The script will ask for the name of the file, please include the full path if the file is not on the same directory as the script. Python will print the contents of the file before and after modification. Enjoy!
+The script will ask for the name of the file, please include the full path if the file is not on the same directory as the script. Then, type the text to add in lieu of the comment, please replace all the new lines with '\n'. Python will print the contents of the file before and after modification. Enjoy!

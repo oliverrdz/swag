@@ -1,6 +1,8 @@
 print('Hello to SWAG')
 
-file = 'web/index.html'
+file = input('File name: ')
+text = input('Text to add: ')
+text = text + '\n'
 
 f = open(file, 'r')
 print('----------')
@@ -13,7 +15,6 @@ f = open(file, 'r')
 lines = []
 for x in f:
     if x == '<!-- MENU -->\n':
-        text = 'Menu goes here\n'
         lines.append(text)
     else:
         lines.append(x)
